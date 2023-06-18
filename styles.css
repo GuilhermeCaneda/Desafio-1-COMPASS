@@ -1,0 +1,653 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display'); 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+}
+
+/*HEADER*/
+header{
+    left: 0;
+    top: 0;
+    max-width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 4% 7%;
+}
+
+.button-header{
+    width: 11.25rem;
+    height: 4rem;
+    border-radius: 8px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: none;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    background: #232340;
+}
+
+.burger-icon{
+    display: none;
+}
+
+#nav-header{
+    list-style-type: none;
+}
+
+#nav-header li{
+    display: inline;
+}
+
+#nav-header li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 2rem;
+    color: #8B8B8B;
+}
+
+#nav-header a:hover{
+    color: #5468E7;
+}
+
+.blue{
+    background-color: #5468E7;
+}
+/* FIM HEADER */
+
+
+/* MAIN */
+main{
+    background-color: #fff;
+    max-width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 12%;
+}
+
+#text-column > h1 {
+    margin-top: 2rem;
+    font-weight: 43.75rem;
+    font-size: 5.25rem;
+    line-height: 6.25rem;
+    letter-spacing: -0.063rem;
+    color: #232340;
+    margin-bottom: 4rem;
+}
+
+#text-column > p {
+    font-weight: 25rem;
+    font-size: 1.125rem;
+    line-height: 2rem;
+    margin-bottom: 3rem;
+    color: #606060;
+}
+
+main > #text-column{
+    flex: 0.66;
+}
+
+main > figure{
+    flex: 1.2;
+
+}
+
+main > figure > img{
+    width: 112.5%;
+    display: block;
+}
+
+/*FIM MAIN*/
+
+/*PAGE 2 (WHO-WE-ARE)*/
+
+
+.part-2{
+    background-color: #232340;
+    padding: 10% 9%;
+}
+
+#who-we-are{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#who-we-are > .leftCol{
+    justify-self: flex-start;
+    align-self: flex-start;
+    flex: 1;
+}
+
+
+.dropdown{
+    display: none;
+}
+
+#who-we-are > .centerCol{
+    flex: 4.5;
+}
+
+#who-we-are > .rightCol{
+    flex: 1.5;
+    justify-self: flex-end;
+    align-self: center;
+}
+
+.mini-logo{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.left-right{
+    width: 64px;
+    height: 64px;
+}
+
+.p-title{
+    color: #FFFFFF;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+#who-we-are > .centerCol > h2{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+
+
+#body-who-we-are{
+    margin-top: 8%;
+    
+}
+
+
+.nav-figure{
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-between;
+}
+
+.nav-figure > figure > img{
+    width: 100%;
+    justify-self: flex-end;
+    align-items: flex-start;
+    display: block;
+}
+
+#nav-who-we-are{
+    list-style-type: none;
+    padding-top: 36px;
+    width: 42px;
+    height: 24px;
+}
+
+#nav-who-we-are li{
+    justify-content: space-around;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #8B8B8B;
+    padding-bottom: 6.5rem;
+    display: block;
+}
+
+#nav-who-we-are-nav li:hover{
+    color: #FFFFFF;
+}
+
+
+
+.leg-bbranding{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.legend{
+    width: 468px;
+    height: 320px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+}
+
+.legend > h3{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+
+.legend > p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #8B8B8B;
+}
+
+.legend > button{
+    background: #5468E7;
+    border-radius: 8px;
+    width: 11.25rem;
+    height: 4rem;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: none;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+}
+
+.bbranding{
+    width: 402px;
+    height: 402px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.bbranding > h1{
+    font-weight: 600;
+    font-size: 200px;
+    line-height: 239px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.bbranding > h4{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    color: #FFFFFF;
+}
+
+/*FIMPAGE 2 (WHO-WE-ARE)*/
+
+/*PAGE-3*/
+
+.part-3{
+    /*background: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, rgba(237, 229, 240, 0.504289) 100%);*/
+    
+}
+
+#what-we-do {
+    background-color: #7e1900;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.center > h2{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: -0.5px;
+    color: #232340;
+}
+
+.p-what-we-do{
+    display: flex;
+    flex-flow: row;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #5468E7;
+}
+
+/*FIM PAGE-3*/
+
+
+
+
+
+
+
+/*PAGE-5*/
+
+.part-5{
+    background: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, rgba(237, 229, 240, 0.504289) 100%);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 10% 9%;
+}
+
+
+
+.body-we-are-hiring{
+    flex-grow: 0.8;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    
+}
+
+#flecha-rosa{
+    width: 9rem;
+    height: 3rem;
+}
+
+
+
+#we-are-hiring {
+    flex-grow: 1.2;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    padding-right: 135px;
+
+}
+
+.center-part-5{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: 5x;
+    max-width: 468px;
+    min-width: 436px;
+}
+
+.center-part-5 > h2{
+    font-weight: 700;
+    font-size: 110px;
+    line-height: 131px;
+    letter-spacing: -1.2px;
+    color: #232340;
+}
+
+.about{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #606060;
+}
+
+
+
+.items{
+    background: #FFFFFF;
+    border-radius: 2.5rem;
+    width: 568px;
+    height: 247px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0rem 3rem;
+    margin-bottom: 1rem;
+}
+
+.items > h3{
+    font-weight: 43.75rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    letter-spacing: -0.03125rem;
+    padding-bottom: 0.5rem;
+}   
+
+.items > p{
+    font-weight: 25rem;
+    font-size: 1.125rem;
+    line-height: 2rem;
+    color: #606060;
+    padding-bottom: 1.5rem;
+}
+
+.seta-preta-branca{
+    width: 1.5rem;
+    height: 1.25rem;
+}
+
+#bg-destached{
+    background: #232340;
+}
+
+#h3-destached{
+    color: #FFFFFF;
+    padding-bottom: 0.5rem;
+}
+
+#p-destached{
+    color: #8B8B8B;
+    padding-bottom: 1.5rem;
+}
+
+/*FIM PAGE-5*/
+
+
+
+
+
+
+@media (max-width:685px){
+
+    /*HEADER*/
+
+    header > .button-header{
+        display: none;
+    }
+    .burger-icon{
+        display: block;
+    }
+    #nav-header{
+        display: none;
+    }
+    header > img{
+        margin-bottom: 8%;
+        margin-left: -8%;
+        margin-right: -8%;
+    }
+    header{
+        padding-top: 13%;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-bottom: 0;
+    }
+
+    /*FIM HEADER*/
+
+    /*MAIN*/
+
+    main{
+        padding:0 9%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    #text-column > h1 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        /* or 117% */
+
+        letter-spacing: -0.5px;
+        margin-bottom: 2rem;
+    }
+    #text-column > p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 1.5rem;
+    }
+
+    #text-column > button{
+        width: 160px;
+        height: 56px;
+    }
+
+    main > figure > img{
+        width: 112.5%;
+        display: block;
+    }
+
+    /*FIM MAIN*/
+
+    /*PAGE-2*/
+
+    .rightCol{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .part-2{
+        padding: 60px 10%;
+        padding: 0;
+        padding-top: 60px;
+    }
+
+    .dropdown{
+        display: block;
+    }
+
+    .mini-logo{
+        display: none;
+    }
+
+    #who-we-are{
+        padding:0 10%;
+        display: flex;
+        flex-flow: column wrap;
+
+    }
+    
+    .left-right{
+        width: 48px;
+        height: 48px;
+    }
+
+    #who-we-are > .centerCol > h2{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -0.4px;
+        padding-top: 8px;
+        padding-right: 50px;
+        padding-bottom: 40px;
+    }
+    
+    .p-title{
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    #nav-who-we-are{
+        display: none;
+    }
+    #body-who-we-are{
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .legend{
+        margin: 0;
+        padding: 0;
+        align-items: center;
+    }
+    .bbranding{
+        margin: 0;
+        padding: 0;
+    }
+    
+    /*FIM PART-2*/
+
+    /*PART-3*/
+
+    .page-3{
+        background: linear-gradient(360deg, rgba(255, 255, 255, 0.0001) 0%, rgba(237, 229, 240, 0.504289) 100%);
+    }
+
+    /*FIM PAGE-3*/
+
+
+    /*PART-5*/
+
+    .part-5{
+        padding: 60px 10%;
+    }
+
+    .items{
+        width: 311px;
+        height: 175px;
+    }
+
+    .items > h3{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        /* identical to box height, or 133% */
+
+        letter-spacing: -0.2px;
+    }
+
+    .items > p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+
+    #flecha-rosa{
+        display: none;
+    }
+    
+    
+    .center-part-5{
+        width: 311px;
+        height: 198px;
+        flex-flow: column wrap;
+    }
+    #we-are-hiring {
+        flex-grow: 1;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        padding: 0;
+    
+    }
+    
+    .center-part-5 > h2{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        /* identical to box height, or 120% */
+        letter-spacing: -0.4px;
+        color: #232340;
+        
+        margin-bottom: 2rem;
+    }
+    
+    .about{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #606060;
+        margin-bottom: 3rem;
+    }
+
+    
+    .p-what-we-do{
+        margin-bottom: 1.5rem;
+    }
+
+
+
+    /* */
+    
+}
