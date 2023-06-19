@@ -8,8 +8,7 @@ desenvolvida
 - Navigation (Mobile) é apenas um 
 ícone.
 - A versão mobile de todas as partes 
-da página foi desenvolvida (utilizan
-do media).
+da página foi desenvolvida (utilizando media).
 - Todas as páginas tentaram seguir o 
 modelo disponível no Figma.
 ______________________________________
