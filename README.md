@@ -19,9 +19,9 @@ ______________________________________
 
 
 ############-Instruções-############ 
-Navegador -> Google Chrome
+- Navegador -> Google Chrome
 
-Resolução -> Desktop: 1440 x 1024
+- Resolução -> Desktop: 1440 x 1024
                Mobile: 375 x 1024
 
 OBS.: Pode ser necessário ao apertar F12, selecionar a resolução desktop e recarregar a página, para assim testar.
