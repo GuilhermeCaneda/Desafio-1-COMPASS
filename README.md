@@ -10,6 +10,7 @@ desenvolvida
 da página foi desenvolvida (utilizando media).
 - Todas as páginas tentaram seguir o 
 modelo disponível no Figma.
+- Algumas imagens estão fora da pasta e não foi possível retirá-las. (Podem ser removidas sem alterar o funcionamento)
 ______________________________________
 --------------------------------------
 
