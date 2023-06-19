@@ -2,7 +2,7 @@
 
 -------------   STATUS  --------------
 -> Finalizado;
-______________Informações_____________
+-______________Informações_____________
 - A parte 03. Famous Projects não foi 
 desenvolvida
 - Navigation (Mobile) é apenas um 
